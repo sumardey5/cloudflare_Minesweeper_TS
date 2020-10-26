@@ -4,7 +4,10 @@ import "./App.scss";
 
 const App: React.FC = () => {
     return (
-        <div className="App">Hello from App;</div>
+        <div className="App">
+            <div className = "Header">Header</div>
+            <div className = "Body">Body</div>
+        </div>
     )
 };
 
